@@ -1,0 +1,24 @@
+.navbar
+{
+    background-color: rgb(81, 145, 125);
+    
+}
+div{
+    cursor: pointer;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-style:italic
+   
+}
+.d-flex.justify-content-evenly {
+    color: white;
+  }
+  
+  .navbar-brand {
+    color: white !important;   /* force white */
+    font-size: 20px;           /* optional, adjust size */
+    font-weight: bold;         /* optional */
+  }
+  

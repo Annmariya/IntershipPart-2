@@ -1,0 +1,69 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+    margin: 0;
+    padding: 20px;
+   
+    height: 100vh;    
+  }
+  
+  
+  /* Card styling */
+  .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    background: #fff;
+    overflow: hidden;
+    max-width: 600px;
+    margin: 20px auto; 
+  }
+  
+  .card img {
+    max-height: 150px; 
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #00796b;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  
+  .card-text input {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 13px;
+    outline: none;
+  }
+  
+  .card-text input:focus {
+    border-color: #00796b;
+  }
+  
+  
+  .btn-submit {
+    display: block;
+    width: 100%;
+    background: #06a2f6;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background: #c3c90a;
+  }
+  

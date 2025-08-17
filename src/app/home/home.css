@@ -1,0 +1,54 @@
+.carousel-inner img {
+    height: 50vh; /* 50% of the viewport height */
+    object-fit: cover; /* Ensures image scales nicely */
+  }
+
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f5f5f5; /* light background */
+    color: #17191b;
+  }
+  
+  .about-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #2c3e50;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .about-image {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  .about-content {
+    flex: 2;
+    min-width: 300px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #17191b;
+  }
+  
